@@ -1,0 +1,40 @@
+{
+  "pilots": [
+    {
+      "id": "p1",
+      "name": "Max Verstappen",
+      "teamId": "t1",
+      "attributes": { "speed": 98, "consistency": 95, "aggressiveness": 92 },
+      "stats": { "mmr": 3200, "wins": 45, "podiums": 80, "totalRaces": 120, "points": 1200 }
+    },
+    {
+      "id": "p2",
+      "name": "Lewis Hamilton",
+      "teamId": "t2",
+      "attributes": { "speed": 94, "consistency": 98, "aggressiveness": 85 },
+      "stats": { "mmr": 3150, "wins": 40, "podiums": 75, "totalRaces": 115, "points": 1100 }
+    },
+    {
+      "id": "p3",
+      "name": "Charles Leclerc",
+      "teamId": "t3",
+      "attributes": { "speed": 96, "consistency": 88, "aggressiveness": 95 },
+      "stats": { "mmr": 2800, "wins": 25, "podiums": 50, "totalRaces": 90, "points": 800 }
+    }
+  ],
+  "teams": [
+    { "id": "t1", "name": "Red Bull Racing", "color": "#0600ef", "pilotIds": ["p1"] },
+    { "id": "t2", "name": "Mercedes-AMG", "color": "#00d2be", "pilotIds": ["p2"] },
+    { "id": "t3", "name": "Ferrari", "color": "#dc0000", "pilotIds": ["p3"] }
+  ],
+  "tracks": [
+    {
+      "id": "m1",
+      "name": "Monaco Street Circuit",
+      "difficulty": "Hard",
+      "laps": 3,
+      "points": []
+    }
+  ],
+  "history": []
+}
